@@ -17,3 +17,4 @@ C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTes
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.CopyComplete
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.dll
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.pdb
+C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.SuggestedBindingRedirects.cache
