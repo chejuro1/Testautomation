@@ -5,7 +5,6 @@ C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\Microso
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\selenium-manager\linux\selenium-manager
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\selenium-manager\macos\selenium-manager
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\selenium-manager\windows\selenium-manager.exe
-C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\UnitTestProject2.dll
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\UnitTestProject2.pdb
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
@@ -15,6 +14,7 @@ C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\Microso
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.AssemblyReference.cache
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.CoreCompileInputs.cache
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.CopyComplete
-C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.dll
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.pdb
 C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.csproj.SuggestedBindingRedirects.cache
+C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\bin\Debug\UnitTestProject2.exe
+C:\Users\jules\selenium\test\UnitTestProject2\UnitTestProject2\obj\Debug\UnitTestProject2.exe

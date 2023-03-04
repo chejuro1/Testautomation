@@ -5,6 +5,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SeleniumBingTests
 {
@@ -24,7 +25,14 @@ namespace SeleniumBingTests
 
         [TestMethod]
         [TestCategory("Chrome")]
+        static void Main(string[] args)
+        {
+
+        }
         public void TheBingSearchTest()
+
+            // This is the main entry point of the application.
+           // static void Main(string[] args)
         {
             driver.Navigate().GoToUrl(appURL + "/");
             driver.FindElement(By.Id("sb_form_q")).SendKeys("Azure Pipelines");
@@ -32,6 +40,8 @@ namespace SeleniumBingTests
             driver.FindElement(By.XPath("//ol[@id='b_results']/li/h2/a/strong[3]")).Click();
             Assert.IsTrue(driver.Title.Contains("Azure Pipelines"), "Verified title of the page");
         }
+
+      
 
         /// <summary>
         ///Gets or sets the test context which provides
