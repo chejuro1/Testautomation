@@ -1,17 +1,20 @@
 ﻿
 using OpenQA.Selenium.Chrome;
-
+using OpenQA.Selenium;
+using System.Threading.Tasks;
 namespace SeleniumDocs.Hello
 {
     public class HelloSelenium
     {
-        public static void Main()
+    
+        public  static void Main()
         {
-            var driver = new ChromeDriver();
-
-            driver.Navigate().GoToUrl("https://selenium.dev");
-
+            IWebDriver driver = new ChromeDriver();
+            driver.Url= "https://www.facebook.com/";
+            IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='email"));
+            emailTextField.SendKeys("Selenium c#");
             driver.Quit();
+
         }
     }
 }
