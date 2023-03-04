@@ -28,11 +28,17 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# - task: CopyFiles@2
-#   inputs:
-#     targetFolder: '$(Build.ArtifactStagingDirectory)'    
+- task: CopyFiles@2
+    inputs:
+      Contents: '**'
+      targetFolder: ''    
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.ArtifactStagingDirectory)'
+    Contents: 'SeleniumcoreDemo.dll'
+    TargetFolder: '$(System.DefaultWorkingDirectory)'
 
 - task: PublishBuildArtifacts@1    
   displayName: 'Publish Artifact: drop'
   inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
