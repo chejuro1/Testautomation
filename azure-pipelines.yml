@@ -32,7 +32,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: 'SeleniumcoreDemo.dll'
+    Contents: '**\bin\**'
     TargetFolder: '$(System.DefaultWorkingDirectory)'
 
 - task: PublishBuildArtifacts@1    
