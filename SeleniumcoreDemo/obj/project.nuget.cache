@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dFcUxm3+jUufEfK+DCZ8oh1M014rGSseQ4mgOvdZgpuWMiWGrpdZcmjNr5IHGoX25wXH4pINm16Kid6FrlN7xQ==",
+  "dgSpecHash": "EzEvk+p8BFpFzAC1/Z7nutOHwg1Be1eiAPbRHmgGXcFzK5/gwmEUA0C9ITuUuv45pyRQP3QA4ZZnahbKdFu6YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jules\\selenium\\test\\SeleniumcoreDemo\\SeleniumcoreDemo.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\jules\\.nuget\\packages\\nunit.analyzers\\3.5.0\\nunit.analyzers.3.5.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\nunit3testadapter\\4.3.0\\nunit3testadapter.4.3.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\selenium.webdriver\\4.8.1\\selenium.webdriver.4.8.1.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\selenium.webdriver.chromedriver\\110.0.5481.7700\\selenium.webdriver.chromedriver.110.0.5481.7700.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
