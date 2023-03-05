@@ -341,7 +341,7 @@
           }
         }
       },
-      "NUnit/3.13.3": {
+      "NUnit/3.13.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -1205,10 +1205,10 @@
         "nuget.frameworks.nuspec"
       ]
     },
-    "NUnit/3.13.3": {
-      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+    "NUnit/3.13.0": {
+      "sha512": "G+BOONgJKtNtprjGQ54l0m+Vq2VFCMh/H6ljuHfqrRlX6YkNy0GjMd5Nn0NpJidGpRd4gAOJsBqNuxr7Kgc/5g==",
       "type": "package",
-      "path": "nunit/3.13.3",
+      "path": "nunit/3.13.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1225,7 +1225,7 @@
         "lib/net45/nunit.framework.xml",
         "lib/netstandard2.0/nunit.framework.dll",
         "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.13.3.nupkg.sha512",
+        "nunit.3.13.0.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
@@ -1340,7 +1340,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
-      "NUnit >= 3.13.3",
+      "NUnit >= 3.13.0",
       "NUnit.Analyzers >= 3.5.0",
       "NUnit3TestAdapter >= 4.3.0",
       "Selenium.WebDriver >= 4.8.1",
@@ -1398,7 +1398,7 @@
           },
           "NUnit": {
             "target": "Package",
-            "version": "[3.13.3, )"
+            "version": "[3.13.0, )"
           },
           "NUnit.Analyzers": {
             "target": "Package",

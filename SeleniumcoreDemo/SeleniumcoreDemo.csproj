@@ -8,6 +8,8 @@
     <IsPackable>false</IsPackable>
 
     <BaseOutputPath>bin\Debug\</BaseOutputPath>
+
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>

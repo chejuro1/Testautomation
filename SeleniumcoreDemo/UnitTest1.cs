@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -35,7 +36,13 @@ namespace SeleniumcoreDemo
             var InkEmployeeDetails = webDriver.FindElement(By.LinkText("Employee Details"));
             Assert.That(InkEmployeeDetails.Displayed, Is.True);
 
+           
 
         }
+        IWebDriver webDriver = new ChromeDriver();
+        [TearDown]
+        
+        public void TearDown() => webDriver.Quit();
+
     }
 }
