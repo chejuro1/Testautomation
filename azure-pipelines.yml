@@ -32,7 +32,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     # SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**\bin\$(BuildConfiguration)\** **\$(BuildConfiguration)\*test*.dll !**\obj\**'
+    Contents: '**\bin\$(BuildConfiguration)\** **\$(BuildConfiguration)\*SeleniumcoreDemo.dll !**\obj\**'
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
