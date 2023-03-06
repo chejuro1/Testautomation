@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -17,10 +18,10 @@ namespace SeleniumcoreDemo
         public void Test1()
         {
             //       Open the driver 
-            //var Chromeoptions = new ChromeOptions();
-            //ChromeOptions.AddArgument("headless");
-            using 
-            IWebDriver webDriver = new ChromeDriver();
+            var ChromeOptions = new ChromeOptions();
+            ChromeOptions.AddArgument("headless");
+            
+                IWebDriver webDriver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
 
             // Navigate to site 
             webDriver.Navigate().GoToUrl("http://eaapp.somee.com/");
