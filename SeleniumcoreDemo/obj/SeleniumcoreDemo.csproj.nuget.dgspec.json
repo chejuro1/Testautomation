@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[17.3.2, )"
             },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.0, )"

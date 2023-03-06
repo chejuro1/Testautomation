@@ -17,6 +17,9 @@ namespace SeleniumcoreDemo
         public void Test1()
         {
             //       Open the driver 
+            //var Chromeoptions = new ChromeOptions();
+            //ChromeOptions.AddArgument("headless");
+            using 
             IWebDriver webDriver = new ChromeDriver();
 
             // Navigate to site 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wbwW/Ev/F0Ku1JjZStsnvKXPgiz1vRmEUakjqv1lCd/JAJFWNqDQfnj7laJBF0YdPx80KT+0nvgWfiJD6GLJeg==",
+  "dgSpecHash": "aO2KSpDHSW0lLLfq0FMHc9Z36fYVpi5BaVGlhqjYdgJrY9WZ0xH7LmGEoiEJpPGi+OP74KEXLMYASqXQBztQQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jules\\selenium\\test\\SeleniumcoreDemo\\SeleniumcoreDemo.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jules\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
-    "C:\\Users\\jules\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
