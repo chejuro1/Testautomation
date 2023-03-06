@@ -101,3 +101,5 @@ C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\refint\Selenium
 C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\SeleniumcoreDemo.pdb
 C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\SeleniumcoreDemo.genruntimeconfig.cache
 C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\ref\SeleniumcoreDemo.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\chromedriver.exe
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\WebDriver.Support.dll
