@@ -10,7 +10,7 @@
     <BaseOutputPath>bin\Debug\</BaseOutputPath>
 
     <OutputType>Library</OutputType>
-    <PublishChromeDriver>true<PublishChromeDriver>
+  
   </PropertyGroup>
 
   <ItemGroup>
