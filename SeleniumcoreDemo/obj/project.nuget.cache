@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zabChXJ052OBeWzV5rUY2gGoo2J2dbwC/4kpOPrqwjoznzTYqgrM5hBp5cA30xH92Bp82dQRSUhU76PQghFNaw==",
+  "dgSpecHash": "SGnBnX3LGnOdKWjGUZZeUU0DPdaqwh5LLowTrmLlfZXMt5JEvRY3IgmBfW/e2XJIi5LW7FRNfAHL+3a0FktSDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jules\\selenium\\test\\SeleniumcoreDemo\\SeleniumcoreDemo.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,8 @@
     "C:\\Users\\jules\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\nunit.analyzers\\3.5.0\\nunit.analyzers.3.5.0.nupkg.sha512",
-    "C:\\Users\\jules\\.nuget\\packages\\nunit3testadapter\\4.3.0\\nunit3testadapter.4.3.0.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\selenium.support\\4.8.1\\selenium.support.4.8.1.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\selenium.webdriver\\4.8.1\\selenium.webdriver.4.8.1.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\selenium.webdriver.chromedriver\\110.0.5481.7700\\selenium.webdriver.chromedriver.110.0.5481.7700.nupkg.sha512",

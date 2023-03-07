@@ -103,3 +103,11 @@ C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\SeleniumcoreDem
 C:\Users\jules\selenium\test\SeleniumcoreDemo\obj\Release\net7.0\ref\SeleniumcoreDemo.dll
 C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\chromedriver.exe
 C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\WebDriver.Support.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\Mono.Cecil.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\Mono.Cecil.Mdb.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\Mono.Cecil.Pdb.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\Mono.Cecil.Rocks.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\nunit.core.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\nunit.core.interfaces.dll
+C:\Users\jules\selenium\test\SeleniumcoreDemo\bin\Debug\Release\net7.0\nunit.util.dll
