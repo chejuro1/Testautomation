@@ -7,8 +7,7 @@ trigger:
 - main
 
 pool:
-  name: selenium
-  vmImage: 'selenium'
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
