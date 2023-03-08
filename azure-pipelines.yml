@@ -34,7 +34,7 @@ steps:
     # SourceFolder: '$(Build.ArtifactStagingDirectory)'
     Contents: |
          **\bin\**\?(*.exe|*.dll)
-         Runsetting
+         Runsetting.xml
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
