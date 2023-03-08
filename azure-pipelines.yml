@@ -32,7 +32,9 @@ steps:
 - task: CopyFiles@2
   inputs:
     # SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**\bin\**\?(*.exe|*.dll),Runsetting.xml'
+    Contents: |
+         **\bin\**\?(*.exe|*.dll)
+         Runsetting
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
