@@ -28,7 +28,7 @@ steps:
       
       pwd
       ls -la 
-    workingDirectory: '$(System.DefaultWorkingDirectory)'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/SeleniumcoreDemo'
 
 - task: VSBuild@1
   inputs:
