@@ -39,7 +39,7 @@ steps:
   displayName: 'Copy Runsetting file'
   inputs:
       SourceFolder: '$(System.DefaultWorkingDirectory)'
-      Contents: Runsetting.xml
+      Contents: test.runsettings
       TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
