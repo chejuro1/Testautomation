@@ -38,7 +38,7 @@ steps:
 - task: CopyFiles@2
   displayName: 'Copy Runsetting file'
   inputs:
-      SourceFolder: '$(System.DefaultWorkingDirectory)'
+      SourceFolder: '$(System.DefaultWorkingDirectory)/SeleniumcoreDemo'
       Contents: test.runsettings
       TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
