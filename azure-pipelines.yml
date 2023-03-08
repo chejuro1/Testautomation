@@ -30,12 +30,17 @@ steps:
 
  
 - task: CopyFiles@2
+  displayName: 'Copy test files'
   inputs:
     # SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: |
-         **\bin\**\?(*.exe|*.dll)
-         Runsetting.xml
+    Contents: '**\bin\**\?(*.exe|*.dll)'
     TargetFolder: '$(build.artifactstagingdirectory)'
+- task: CopyFiles@2
+  displayName: 'Copy Runsetting file'
+  inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)'
+      Contents: Runsetting.xml
+      TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
