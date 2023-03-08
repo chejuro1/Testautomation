@@ -5,7 +5,7 @@
 		<ResultsDirectory>$(Agent.TempDirectory)\TestResults</ResultsDirectory>
 		<TargetPlatform>x64</TargetPlatform>
 		<TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
-		<TestAdaptersPaths>%$(Agent.TempDirectory)</TestAdaptersPaths>
+		<TestAdaptersPaths>D:\a\r1\a\_Testautomation\drop\SeleniumcoreDemo\bin</TestAdaptersPaths>
 		<TestSessionTimeout>10000</TestSessionTimeout>
 		<TreatNoTestsAsError>true</TreatNoTestsAsError>
 	</RunConfiguration>
