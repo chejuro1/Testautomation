@@ -50,7 +50,7 @@ steps:
   displayName: 'Copy Runsetting file'
   inputs:
       SourceFolder: '$(System.DefaultWorkingDirectory)/SeleniumcoreDemo'
-      Contents: test.runsettings
+      Contents: .runsettings
       TargetFolder: '$(build.artifactstagingdirectory)/SeleniumTests'
 
 # publish all artifacts in the Artifact Stagign Directory
