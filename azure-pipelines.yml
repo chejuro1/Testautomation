@@ -1,6 +1,6 @@
 # any commit to the master branch will trigger the CI build
 trigger:
-- master
+- main
 
 # use a Windows agent with VS to build the .NET Core MSTest project
 # you can replace this with Ubuntu too without changing the tasks
