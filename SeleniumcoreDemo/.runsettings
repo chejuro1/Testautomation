@@ -2,7 +2,6 @@
 <RunSettings>
 	<RunConfiguration>
 		<MaxCpuCount>1</MaxCpuCount>
-		<ResultsDirectory>$(System.DefaultWorkingDirectory)\UI_Test_Artifact\drop\SeleniumTests\TestResults</ResultsDirectory>
 		<TargetPlatform>x64</TargetPlatform>
 		<TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
 		<TestAdaptersPaths>$(System.DefaultWorkingDirectory)\UI_Test_Artifact\drop\SeleniumTests</TestAdaptersPaths>
