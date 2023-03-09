@@ -1,48 +1,51 @@
-# ASP.NET
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
-
+# any commit to the master branch will trigger the CI build
 trigger:
-- main
+- master
 
+# use a Windows agent with VS to build the .NET Core MSTest project
+# you can replace this with Ubuntu too without changing the tasks
 pool:
-  vmImage: 'windows-latest'
+  name: Hosted Windows 2019 with VS2019
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Debug'
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
 
 steps:
-- task: NuGetToolInstaller@1
+# install the required .NET Core SDK version
+# only necessary if the agent doesn't already have the required SDK
+# - task: DotNetCoreInstaller@0
+#   displayName: 'Use .NET Core sdk 2.2.301'
+#   inputs:
+#     version: 2.2.301
 
-- task: NuGetCommand@2
+- task: UseDotNet@2
   inputs:
-    restoreSolution: '$(solution)'
+      version: '7.0.201'
+      includePreviewVersions: true
+      performMultiLevelLookup: true
+# restore Nuget packages/dependencies
+- task: DotNetCoreCLI@2
+  displayName: Restore
+  inputs:
+    command: restore
+    projects: '**/Demo.SeleniumTests.csproj'
 
-- task: VSBuild@1
+# publish the UI test project to the SeleliumTest subfolder in the Artifact Staging Directory
+# optionally, you can add more steps to publish your own website alongside your SeleniumTests in another task
+- task: DotNetCoreCLI@2
+  displayName: Publish
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    command: publish
+    publishWebProjects: false
+    projects: '**/Demo.SeleniumTests.csproj'
+    arguments: '--configuration Release -o $(build.artifactstagingdirectory)/SeleniumTests'
+    zipAfterPublish: false
+    modifyOutputPath: false
 
- 
-- task: CopyFiles@2
-  displayName: 'Copy test files'
-  inputs:
-    # SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**\bin\**\?(*.exe|*.dll)'
-    TargetFolder: '$(build.artifactstagingdirectory)'
-- task: CopyFiles@2
-  displayName: 'Copy Runsetting file'
-  inputs:
-      SourceFolder: '$(System.DefaultWorkingDirectory)/SeleniumcoreDemo'
-      Contents: test.runsettings
-      TargetFolder: '$(build.artifactstagingdirectory)'
+# publish all artifacts in the Artifact Stagign Directory
+# this will place the UI Test artifacts in Azure DevOps for future use in the deployment pipeline
 - task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
