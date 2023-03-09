@@ -2,10 +2,10 @@
 <RunSettings>
 	<RunConfiguration>
 		<MaxCpuCount>1</MaxCpuCount>
-		<ResultsDirectory>$(Agent.TempDirectory)\TestResults</ResultsDirectory>
+		<ResultsDirectory>$(System.DefaultWorkingDirectory)\UI_Test_Artifact\drop\SeleniumTests\TestResults</ResultsDirectory>
 		<TargetPlatform>x64</TargetPlatform>
 		<TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
-		<TestAdaptersPaths>D:\a\r1\a\_Testautomation\drop\SeleniumcoreDemo\bin</TestAdaptersPaths>
+		<TestAdaptersPaths>$(System.DefaultWorkingDirectory)\UI_Test_Artifact\drop\SeleniumTests</TestAdaptersPaths>
 		<TestSessionTimeout>10000</TestSessionTimeout>
 		<TreatNoTestsAsError>true</TreatNoTestsAsError>
 	</RunConfiguration>
