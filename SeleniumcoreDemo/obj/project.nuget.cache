@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xr0253pAFLLDuKQek7rkE9nPsNjnbURoC2fD/cUILgTIO51ONZVKc/ss0EwUXA+/95QA013Hq1JrYNlU7w6S1w==",
+  "dgSpecHash": "ZNPpEev+5k4TW0EjpHCsRITmcmvZxL0mSkbDwlYJpQZ7PWeySVMW1iVhndnMXMkY7B4u1Y4ZZ+TnrnRr+ObRBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\selenium\\test\\SeleniumcoreDemo\\SeleniumcoreDemo.csproj",
+  "projectFilePath": "C:\\Users\\jules\\selenium\\Testautomation\\SeleniumcoreDemo\\SeleniumcoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
