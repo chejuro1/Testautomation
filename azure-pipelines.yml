@@ -24,6 +24,11 @@ steps:
       includePreviewVersions: true
       performMultiLevelLookup: true
 # restore Nuget packages/dependencies
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
 - task: DotNetCoreCLI@2
   displayName: Restore
   inputs:
