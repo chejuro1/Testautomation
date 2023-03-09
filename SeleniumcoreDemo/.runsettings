@@ -8,4 +8,7 @@
 		<TestSessionTimeout>10000</TestSessionTimeout>
 		<TreatNoTestsAsError>true</TreatNoTestsAsError>
 	</RunConfiguration>
+        <TestRunParameters>
+       <Parameter name="headless" value="true" />
+       </TestRunParameters>
 </RunSettings>
